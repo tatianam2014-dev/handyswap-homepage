@@ -2,15 +2,14 @@ export default function TrustBar() {
   return (
     <section className="bg-gray-100 py-10">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-3 gap-12 items-start">
+        <div className="grid grid-cols-3 items-center gap-12">
 
           {/* Secure Payment */}
-          <div>
-            <h3 className="text-xs text-gray-500 mb-4 tracking-normal">
+          <div className="text-center">
+            <p className="text-xs text-gray-500 mb-3">
               Secure payment
-            </h3>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+            </p>
+            <div className="flex justify-center flex-wrap gap-6 text-sm text-gray-700">
               <span>PayPal</span>
               <span>Visa</span>
               <span>Mastercard</span>
@@ -20,27 +19,22 @@ export default function TrustBar() {
           </div>
 
           {/* Shipping Partners */}
-          <div>
-            <h3 className="text-xs text-gray-500 mb-4 tracking-normal">
+          <div className="text-center">
+            <p className="text-xs text-gray-500 mb-3">
               Shipping partners
-            </h3>
-
-            <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+            </p>
+            <div className="flex justify-center gap-8 text-sm text-gray-700">
               <span>DHL</span>
               <span>Hermes</span>
               <span>UPS</span>
             </div>
           </div>
 
-          {/* Rating */}
-          <div>
-            <h3 className="text-xs text-gray-500 mb-4 tracking-normal">
-              Customer rating
-            </h3>
-
-            <div className="bg-white rounded-lg px-5 py-4">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-xl font-semibold text-gray-900">
+          {/* Rating (без заголовка) */}
+          <div className="flex justify-center">
+            <div className="bg-white rounded-xl px-6 py-5 text-center shadow-sm">
+              <div className="flex items-baseline justify-center gap-2 mb-2">
+                <span className="text-2xl font-semibold text-gray-900">
                   4.85
                 </span>
                 <span className="text-sm text-gray-500">
@@ -48,7 +42,7 @@ export default function TrustBar() {
                 </span>
               </div>
 
-              <div className="flex gap-1 mb-1">
+              <div className="flex justify-center gap-1 mb-2">
                 {[...Array(5)].map((_, i) => (
                   <svg
                     key={i}
@@ -60,14 +54,4 @@ export default function TrustBar() {
                 ))}
               </div>
 
-              <p className="text-xs text-gray-500">
-                Excellent – Trusted Shops
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-  );
-}
+              <p className="text-xs tex
