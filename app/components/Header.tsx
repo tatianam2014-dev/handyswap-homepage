@@ -39,25 +39,40 @@ export default function Header() {
         </div>
 
         {/* Right menu */}
-        <div className="flex gap-8 text-sm text-gray-600">
-          <div className="text-center">
-            <div>👤</div>
-            <span className="block text-xs mt-1">Account</span>
-          </div>
+        <div className="flex gap-8 text-gray-600">
 
-          <div className="text-center">
-            <div>♡</div>
-            <span className="block text-xs mt-1">Wishlist</span>
-          </div>
+  {/* Account */}
+  <div className="flex flex-col items-center text-xs hover:text-gray-900 cursor-pointer transition">
+    <svg className="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8}
+        d="M5.121 17.804A9 9 0 1118.879 17.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+    </svg>
+    Account
+  </div>
 
-          <div className="text-center relative">
-            <div>🛒</div>
-            <span className="block text-xs mt-1">Cart</span>
-            <span className="absolute -top-1 -right-2 bg-orange-500 text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
-              2
-            </span>
-          </div>
-        </div>
+  {/* Wishlist */}
+  <div className="flex flex-col items-center text-xs hover:text-gray-900 cursor-pointer transition">
+    <svg className="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8}
+        d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 116.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z" />
+    </svg>
+    Wishlist
+  </div>
+
+  {/* Cart */}
+  <div className="flex flex-col items-center text-xs relative hover:text-gray-900 cursor-pointer transition">
+    <svg className="w-5 h-5 mb-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8}
+        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 5h12m-5-5v5m-4-5v5" />
+    </svg>
+    Cart
+    <span className="absolute -top-1 -right-3 bg-orange-500 text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
+      2
+    </span>
+  </div>
+
+</div>
+
 
       </div>
     </header>
