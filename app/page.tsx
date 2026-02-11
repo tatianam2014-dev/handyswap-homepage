@@ -80,7 +80,7 @@ const popularProducts = [
     oldPrice: "$1,399.00",
     badge: {
   label: "-15%",
-  type: "sale"
+  type: "discount"
 },
   },
   {
