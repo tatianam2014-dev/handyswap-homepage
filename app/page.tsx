@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import USPStrip from "./components/USPStrip";
 import CategoryCards from "./components/CategoryCards";
 import ProductSection from "./components/ProductSection";
+import WhyHandyswap from "./components/WhyHandyswap";
+
 
 const recommendedProducts = [
   {
@@ -99,6 +101,9 @@ export default function Home() {
         subtitle="Our bestsellers of the week"
         products={popularProducts}
       />
+
+      <WhyHandyswap />
+
     </>
   );
 }
