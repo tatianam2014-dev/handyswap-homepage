@@ -19,7 +19,7 @@ export default function CategoryCards() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 gap-8">
           {categories.map((category, index) => (
-            
+            <a
               key={index}
               href={category.href}
               className="group bg-gray-50 rounded-lg p-8 flex items-center justify-between transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
