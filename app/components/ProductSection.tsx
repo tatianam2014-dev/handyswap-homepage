@@ -22,7 +22,7 @@ export default function ProductSection({
   return (
     <section className="max-w-6xl mx-auto px-6 py-12">
       {/* Section Header */}
-      <div className="flex items-end justify-between mb-12">
+      <div className="flex items-end justify-between mb-8">
         <div>
           <h2 className="text-3xl font-bold">{title}</h2>
           <p className="text-gray-500 mt-2">{subtitle}</p>
