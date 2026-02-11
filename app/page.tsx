@@ -4,6 +4,7 @@ import CategoryCards from "./components/CategoryCards";
 import ProductSection from "./components/ProductSection";
 import WhyHandyswap from "./components/WhyHandyswap";
 import TrustBar from "./components/TrustBar";
+import Footer from "./components/Footer";
 
 
 const recommendedProducts = [
@@ -105,6 +106,7 @@ export default function Home() {
 
       <WhyHandyswap />
       <TrustBar />
+      <Footer />
     </>
   );
 }
