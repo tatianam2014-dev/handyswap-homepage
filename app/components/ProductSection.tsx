@@ -20,7 +20,7 @@ export default function ProductSection({
   products,
 }: Props) {
   return (
-    <section className="max-w-7xl mx-auto px-10 py-24">
+    <section className="max-w-6xl mx-auto px-6 py-20">
       {/* Section Header */}
       <div className="flex items-end justify-between mb-12">
         <div>
