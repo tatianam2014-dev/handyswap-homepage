@@ -1,28 +1,32 @@
 import { BadgeEuro, ShieldCheck, Headphones, RotateCcw } from "lucide-react";
 
 export default function WhyHandyswap() {
-  const features = [
-    {
-      title: "Transparent Pricing",
-      description:
-        "No hidden costs. You see immediately what you pay – including VAT and shipping.",
-    },
-    {
-      title: "Tested Quality",
-      description:
-        "Every device goes through our 50-point check by certified technicians in Germany.",
-    },
-    {
-      title: "German Support",
-      description:
-        "Our customer service is based in Berlin and helps you quickly and competently.",
-    },
-    {
-      title: "Easy Returns",
-      description:
-        "Doesn't fit? No problem. You can return your device free of charge within 30 days.",
-    },
-  ];
+ const features = [
+  {
+    title: "Transparent Pricing",
+    description:
+      "No hidden costs. You see immediately what you pay – including VAT and shipping.",
+    icon: ShieldCheck,
+  },
+  {
+    title: "Tested Quality",
+    description:
+      "Every device goes through our 50-point check by certified technicians in Germany.",
+    icon: BadgeCheck,
+  },
+  {
+    title: "German Support",
+    description:
+      "Our customer service is based in Berlin and helps you quickly and competently.",
+    icon: Headphones,
+  },
+  {
+    title: "Easy Returns",
+    description:
+      "Doesn't fit? No problem. You can return your device free of charge within 30 days.",
+    icon: RotateCcw,
+  },
+];
 
   return (
     <section className="bg-gray-50 py-20">
