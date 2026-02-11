@@ -19,7 +19,7 @@ export default function Header() {
   <input
     type="text"
     placeholder="What are you looking for? (e.g. iPhone 15, Samsung S24)"
-    className="w-full rounded-full bg-gray-100 border border-gray-200 pl-12 pr-12 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+    className="w-full rounded-full bg-gray-100 border border-gray-200 pl-12 pr-12 py-2.5 text-sm focus:outline-none focus:ring-1 focus:ring-bg-brand focus:border-bg-brand transition"
   />
 
   {/* Search icon left */}
