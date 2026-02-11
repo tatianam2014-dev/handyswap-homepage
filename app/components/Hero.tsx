@@ -25,16 +25,49 @@ export default function Hero() {
           Certified new devices with fast delivery across Germany
         </p>
 
-        {/* Buttons */}
-        <div className="flex gap-5 mb-8">
-          <button className="bg-brand text-white px-8 py-4 rounded-full font-medium hover:bg-brand-hover transition">
-            Shop iPhone
-          </button>
+       {/* Buttons */}
+<div className="flex gap-6 mb-10">
 
-          <button className="border-[1.6px] border-brand text-brand px-8 py-4 rounded-full font-medium hover:bg-brand hover:text-white transition-colors duration-200">
-            Shop Samsung
-          </button>
-        </div>
+  {/* Primary */}
+  <button className="group inline-flex items-center gap-3 h-[54px] px-8 rounded-full 
+    bg-brand text-white font-medium
+    shadow-[0_8px_20px_rgba(68,136,252,0.35)]
+    hover:bg-brand-hover hover:shadow-[0_10px_25px_rgba(68,136,252,0.45)]
+    transition-all duration-200">
+
+    Shop iPhone
+
+    <svg
+      className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+
+  {/* Secondary */}
+  <button className="group inline-flex items-center gap-3 h-[54px] px-8 rounded-full
+    border-[1.6px] border-brand text-brand font-medium
+    hover:bg-brand hover:text-white
+    transition-all duration-200">
+
+    Shop Samsung
+
+    <svg
+      className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+
+</div>
 
         {/* Rating */}
         <div className="flex items-center gap-4 text-sm text-gray-600">
