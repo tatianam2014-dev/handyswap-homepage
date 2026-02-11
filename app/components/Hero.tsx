@@ -4,6 +4,12 @@ export default function Hero() {
       
       {/* Left Content */}
       <div>
+
+        {/* Top Badge */}
+        <div className="inline-flex items-center px-4 py-1.5 mb-6 rounded-full bg-brand-light text-brand text-xs font-medium tracking-wide">
+          🇩🇪 Official German Warranty & Fast Shipping
+        </div>
+
         <h1 className="text-5xl font-bold leading-tight mb-6">
           New iPhone & Samsung.
           <br />
@@ -29,8 +35,6 @@ export default function Hero() {
 
         {/* Rating */}
         <div className="flex items-center gap-4 text-sm text-gray-600">
-          
-          {/* Stars */}
           <div className="flex gap-1">
             {[...Array(5)].map((_, i) => (
               <svg
@@ -43,15 +47,12 @@ export default function Hero() {
             ))}
           </div>
 
-          {/* Rating number */}
           <span className="font-medium text-gray-800">
             4.8/5
           </span>
 
-          {/* Divider */}
           <span className="text-gray-300">|</span>
 
-          {/* Text */}
           <span className="text-gray-500">
             Over 15,000 satisfied customers
           </span>
