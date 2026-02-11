@@ -15,7 +15,10 @@ const recommendedProducts = [
     storage: "128 GB",
     price: "$849.00",
     oldPrice: "$949.00",
-    badge: "Bestseller",
+     badge: {
+    label: "Bestseller",
+    type: "bestseller"
+  },
   },
   {
     id: 2,
@@ -24,7 +27,10 @@ const recommendedProducts = [
     storage: "256 GB",
     price: "$749.00",
     oldPrice: "$899.00",
-    badge: "New",
+   badge: {
+  label: "New",
+  type: "new"
+},
   },
   {
     id: 3,
@@ -33,7 +39,10 @@ const recommendedProducts = [
     storage: "256 GB",
     price: "$799.00",
     oldPrice: "$899.00",
-    badge: "New",
+    badge: {
+  label: "New",
+  type: "new"
+},
   },
   {
     id: 4,
@@ -42,7 +51,10 @@ const recommendedProducts = [
     storage: "256 GB",
     price: "$949.00",
     oldPrice: "$1,099.00",
-    badge: "New",
+    badge: {
+  label: "New",
+  type: "new"
+},
   },
 ];
 
@@ -54,7 +66,10 @@ const popularProducts = [
     storage: "256 GB",
     price: "$1,299.00",
     oldPrice: "$1,449.00",
-    badge: "Bestseller",
+     badge: {
+    label: "Bestseller",
+    type: "bestseller"
+  },
   },
   {
     id: 6,
@@ -63,7 +78,10 @@ const popularProducts = [
     storage: "512 GB",
     price: "$1,189.00",
     oldPrice: "$1,399.00",
-    badge: "-15%",
+    badge: {
+  label: "-15%",
+  type: "sale"
+},
   },
   {
     id: 7,
@@ -72,7 +90,10 @@ const popularProducts = [
     storage: "128 GB",
     price: "$649.00",
     oldPrice: "$849.00",
-    badge: "New",
+    badge: {
+  label: "New",
+  type: "new"
+},
   },
   {
     id: 8,
@@ -81,7 +102,10 @@ const popularProducts = [
     storage: "128 GB",
     price: "$399.00",
     oldPrice: "$479.00",
-    badge: "New",
+   badge: {
+  label: "New",
+  type: "new"
+},
   },
 ];
 
