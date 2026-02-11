@@ -31,7 +31,7 @@ export default function CategoryCards() {
                 <p className="text-gray-600 mb-4">
                   {category.description}
                 </p>
-                <span className="text-blue-600 font-medium">
+                <span className="text-brand font-medium">
                   {category.cta}
                 </span>
               </div>
