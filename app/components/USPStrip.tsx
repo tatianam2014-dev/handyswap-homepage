@@ -44,7 +44,7 @@ export default function USPStrip() {
       <div className="grid grid-cols-4 gap-8">
         {usps.map((usp, index) => (
           <div key={index} className="flex flex-col items-center text-center">
-            <div className="text-gray-700 mb-3">
+            <div className="text-brand mb-3">
               {usp.icon}
             </div>
             <h3 className="font-semibold text-gray-900 mb-1">
